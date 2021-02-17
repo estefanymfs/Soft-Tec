@@ -1,23 +1,54 @@
-.cotizacion__container{
+.cotizacion__section{
     padding: 60px 0 90px;
 }
-.cotizacion__head{
-    margin-bottom: 24px;
+.cotizacion__container{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 }
-.cotizacion__select{
+.cotizacion__head{
+    margin-bottom: 50px;
+}
+.cotizacion__prin{
+ width: 580px; 
+ margin: 10px;
+ margin-bottom: 30px;
+}
+.cotizacion__ob{
+    font-size: 20px;
+    
+}
+/* .cotizacion__select{
     border-radius: 7px;
     border: 2px solid #9F9A9A;
     width: 50%;
     height: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+
 }
 .cotizacion__table, th, td{
     border: 2px solid #9F9A9A;
     border-collapse: collapse;
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+} */
+.cotization__list{
+    border-color: black;
+}
+.cotizacion_button{
+    background-color: #8CFF91;
+    border: none;
+    width: 90px;
+    border-radius: 11px;
+    height: 30px;
 }
 .cotizacion__text{
     font-size: 20px;
+    margin-bottom: 30px;
+}
+.cotization__descarga{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

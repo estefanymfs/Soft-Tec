@@ -16,7 +16,7 @@ function Services() {
                 <div className="services__wrapper">
                     <h1 className="services__heading">Servicios</h1>
                     <div className="services__container">
-                        <Link to="/list" className="services__container-card">
+                        <Link to="/listservices" className="services__container-card">
                             <div className="services__container-cardInfo">
                                 <div className="icon">
                                     <BsGearFill/>
@@ -33,7 +33,7 @@ function Services() {
                                 </Button>
                             </div>
                         </Link>
-                        <Link to="/list" className="services__container-card">
+                        <Link to="/listservices" className="services__container-card">
                             <div className="services__container-cardInfo">
                                 <div className="icon">
                                     <FaBroadcastTower/>
@@ -50,7 +50,7 @@ function Services() {
                                 </Button>
                             </div>
                         </Link>
-                        <Link to="/list" className="services__container-card">
+                        <Link to="/listservices" className="services__container-card">
                             <div className="services__container-cardInfo">
                                 <div className="icon">
                                     <FaChalkboardTeacher/>

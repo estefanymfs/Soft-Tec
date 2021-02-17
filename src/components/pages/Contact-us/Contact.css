@@ -15,6 +15,15 @@
     margin-bottom: 20px;
     font-size: 40px;
 }
+.contact__button{
+    width: 190px;
+    height: 40px;
+    border: 2px ;
+    border-radius: 17px;
+    font-size: 19px;
+    background-color: #8CFF91;
+    font-weight: bold;
+}
 
 .contact__data{
     margin-bottom: 20px;

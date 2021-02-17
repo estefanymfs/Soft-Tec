@@ -9,6 +9,7 @@ import About from './components/pages/About-us/About';
 import Contact from './components/pages/Contact-us/Contact'
 import ListServices from './components/pages/List-Service/ListServices';
 import Cotizacion from './components/Cotizacion';
+import  Chatbot from './components/chatbot/chatbot';
 
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
         <Route path='/service' exact component={Service}/>
         <Route path='/about' exact component={About}/>
         <Route path='/contact' exact component={Contact} />
-        <Route path='/list' exact component={ListServices}/>
+        <Route path='/listservices' exact component={ListServices}/>
         <Route path='/cotizacion' exact component={Cotizacion}/>
       </Switch>
+      <Chatbot></Chatbot>
       <Footer></Footer>
     </Router>
   );
